@@ -12,7 +12,7 @@ pub struct Transaction {
 }
 
 impl Transaction {
-    // Public method to evaluate frontrunning threat
+    // Method to evaluate frontrunning threat
     pub fn analyze_security(&self) {
         if self.gasfee > 50 {
             println!(" ALERT!!! FRONTRUNNING ATTACK DETECTED!");
