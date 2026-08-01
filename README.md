@@ -6,7 +6,7 @@ I developed a real-time **Security Analytics & Frontrunning Detection Engine**. 
 
 The purpose of writing this software was to master core systems programming paradigms in Rust—specifically safety, performance, zero-cost abstractions, and strict ownership models. By building a network-ingestion service from scratch, I gained hands-on experience handling low-level socket streams, manual line framing over non-message-based TCP protocols, and type-safe data deserialization without relying on runtime garbage collection.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/c793c09d3c194a2fa0173eafaf2f1d89)
 
 # Development Environment
 
