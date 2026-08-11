@@ -32,6 +32,9 @@ Purpose
 The purpose of writing this software was to master core systems programming paradigms in Rust specifically safety, zero-cost abstractions, non-blocking I/O, and asynchronous cloud data persistence. Building this end-to-end pipeline provided practical experience handling asynchronous network socket streams with tokio, manual line framing, and mapping relational document schemas across cloud database collections without relying on garbage collection.
 
 Software Demo Video
+[Module 1](https://www.loom.com/share/0830ec1bd5be4375b97051ea25ad7283)
+[Module 2](https://www.loom.com/share/c793c09d3c194a2fa0173eafaf2f1d89)
+[Module 3](https://www.loom.com/share/cb0dcd6cdd09498fb804a5fa69a322e6)
 
 ### Cloud Database
 The application utilizes a cloud-managed MongoDB Atlas Cluster hosted on AWS. MongoDB Atlas was selected for its native support for horizontal scaling, low-latency JSON/BSON document persistence, and seamless async integration with Rust.
@@ -90,15 +93,15 @@ dotenv (v0.15): Loads environment variables from a .env file to securely manage 
 futures (v0.3): Provides stream utilities (TryStreamExt) for processing cursor results from database queries.
 
 ### Useful Websites
-The Rust Programming Language Book
+* [The Rust Programming Language Book](https://doc.rust-lang.org/book/)
 
-Official MongoDB Rust Driver Documentation
+* [Official MongoDB Rust Driver Documentation](https://www.mongodb.com/docs/drivers/rust/current/)
 
-Tokio Asynchronous Framework Documentation
+* [Tokio Asynchronous Framework Documentation](https://tokio.rs/)
 
-Serde JSON Documentation
+* [Serde JSON Documentation](https://docs.rs/serde_json/latest/serde_json/)
 
-MongoDB Atlas Documentation
+* [MongoDB Atlas Documentation](https://www.mongodb.com/docs/atlas/)
 
 ### Future Work
 Dynamic Gas Thresholds: Implement a moving-average gas threshold calculation using std::collections::VecDeque to dynamically flag anomalies relative to network congestion instead of static thresholds.

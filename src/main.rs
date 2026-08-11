@@ -15,7 +15,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     dotenv::dotenv().ok();
     let uri = env::var("DATABASE_URL").expect("DATABASE_URL must be set in .env file");
 
-    // Connect asynchronously to MongoDB Atlas (Requirement 1)
+    // Connect asynchronously to MongoDB Atlas
     println!("Connecting to MongoDB Atlas...");
     let client = Client::with_uri_str(&uri).await?;
     let db = client.database("security_db");
