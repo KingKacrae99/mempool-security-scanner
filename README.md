@@ -29,7 +29,7 @@ Build and execute the Rust application:
 Bash
 cargo run
 Purpose
-The purpose of writing this software was to master core systems programming paradigms in Rust—specifically safety, zero-cost abstractions, non-blocking I/O, and asynchronous cloud data persistence. Building this end-to-end pipeline provided practical experience handling asynchronous network socket streams with tokio, manual line framing, and mapping relational document schemas across cloud database collections without relying on garbage collection.
+The purpose of writing this software was to master core systems programming paradigms in Rust specifically safety, zero-cost abstractions, non-blocking I/O, and asynchronous cloud data persistence. Building this end-to-end pipeline provided practical experience handling asynchronous network socket streams with tokio, manual line framing, and mapping relational document schemas across cloud database collections without relying on garbage collection.
 
 Software Demo Video
 
