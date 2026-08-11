@@ -39,7 +39,7 @@ Software Demo Video
 ### Cloud Database
 The application utilizes a cloud-managed MongoDB Atlas Cluster hosted on AWS. MongoDB Atlas was selected for its native support for horizontal scaling, low-latency JSON/BSON document persistence, and seamless async integration with Rust.
 
-##Database Structure & Schema
+## Database Structure & Schema
 The database consists of two referenced collections within the security_db database to implement a relational data model:
 
 1. threats Collection (Primary Event Logs)
